@@ -2,15 +2,15 @@
 	"id": "melodicgin-fitparse",
 	"displayName": "melodicgin-fitparse",
 	"version": "1.0.0",
-	"description": "melodicgin-fitparse",
+	"description": "适用于 UniApp 的 FIT 文件解析器，支持在多端（H5、微信小程序等）解析 FIT 运动数据文件。",
 	"keywords": [
         "melodicgin-fitparse"
     ],
-	"repository": "",
+	"repository": "https://github.com/gin-melodic/fit-parse-uniapp",
 	"engines": {
 		"HBuilderX": "^3.1.0",
-		"uni-app": "^3.1.0",
-		"uni-app-x": "^3.1.0"
+		"uni-app": "^4.43",
+		"uni-app-x": "^4.54"
 	},
 	"dcloudext": {
 		"type": "sdk-js",
@@ -26,28 +26,28 @@
 			"qq": ""
 		},
 		"declaration": {
-			"ads": "",
-			"data": "",
-			"permissions": ""
+			"ads": "无",
+			"data": "插件不采集任何数据",
+			"permissions": "文件读取"
 		},
 		"npmurl": "",
-		"darkmode": "-",
-		"i18n": "-",
-		"widescreen": "-"
+		"darkmode": "x",
+		"i18n": "x",
+		"widescreen": "x"
 	},
 	"uni_modules": {
 		"dependencies": [],
 		"encrypt": [],
 		"platforms": {
 			"cloud": {
-				"tcb": "-",
-				"aliyun": "-",
-				"alipay": "-"
+				"tcb": "√",
+				"aliyun": "√",
+				"alipay": "√"
 			},
 			"client": {
 				"uni-app": {
 					"vue": {
-						"vue2": "-",
+						"vue2": "x",
 						"vue3": "-"
 					},
 					"web": {
@@ -62,14 +62,14 @@
 						"harmony": "-"
 					},
 					"mp": {
-						"weixin": "-",
-						"alipay": "-",
-						"toutiao": "-",
-						"baidu": "-",
-						"kuaishou": "-",
-						"jd": "-",
-						"harmony": "-",
-						"qq": "-",
+						"weixin": "√",
+						"alipay": "√",
+						"toutiao": "√",
+						"baidu": "√",
+						"kuaishou": "√",
+						"jd": "√",
+						"harmony": "√",
+						"qq": "√",
 						"lark": "-"
 					},
 					"quickapp": {
